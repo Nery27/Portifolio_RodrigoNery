@@ -39,7 +39,7 @@
   body {
     background-color: var(--color-primary);
     font-family: "Poppins", sans-serif;
-    font-size: 1.1rem;
+    font-size: 1.0rem;
     color: var(--color-white);
     transition: all 0.4s ease-in-out;
   }
@@ -172,7 +172,7 @@
     clip-path: polygon(0 0, 46% 0, 79% 100%, 0% 100%);
   }
   .header-content .left-header .image {
-    border-radius: var(--br-sm-2);
+    border-radius: 14px;
     height: 90%;
     width: 68%;
     margin-left: 4rem;
@@ -183,6 +183,7 @@
   .header-content .left-header .image img {
     width: 100%;
     height: 100%;
+    border-radius: 14px;
     object-fit: cover;
     transition: all 0.4s ease-in-out;
     filter: grayscale(100%);
@@ -197,7 +198,7 @@
     padding-right: 18rem;
   }
   .header-content .right-header .name {
-    font-size: 2.5rem;
+    font-size: 3rem;
   }
   .header-content .right-header .name span {
     color: var(--color-secondary);
@@ -218,7 +219,7 @@
   .about-container .right-about {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-gap: 2rem;
+    grid-gap: 1rem;
   }
   .about-container .right-about .about-item {
     border: 1px solid var(--color-grey-5);
@@ -260,10 +261,10 @@
     background-color: var(--color-grey-5);
   }
   .about-container .left-about {
-    padding-right: 5rem;
+    padding-right: 3rem;
   }
   .about-container .left-about p {
-    line-height: 2rem;
+    line-height: 1rem;
     padding: 1rem;
     color: var(--color-grey-3);
   }
@@ -541,7 +542,7 @@
   }
   .contact-content-con .left-contact h4 {
     margin-top: 1rem;
-    font-size: 2rem;
+    font-size: 1.5rem;
     text-transform: uppercase;
   }
   .contact-content-con .left-contact p {
@@ -554,12 +555,12 @@
     justify-content: space-between;
   }
   .contact-content-con .left-contact .contact-info .contact-item p {
-    margin: 0.3rem 0 !important;
+    margin: 0.5rem 0 !important;
     padding: 0 !important;
   }
   .contact-content-con .left-contact .contact-info .contact-item .icon {
     display: grid;
-    grid-template-columns: 40px 1fr;
+    grid-template-columns: 50px 1fr;
   }
   .contact-content-con .left-contact .contact-info .contact-item .icon i {
     display: flex;
@@ -839,7 +840,7 @@
   
   @media screen and (max-width: 1432px) {
     .container {
-      padding: 7rem 11rem;
+      padding: 6rem 11rem;
     }
   
     .contact-content-con {
@@ -870,7 +871,7 @@
   @media screen and (max-width: 1250px) {
     .blogs {
       grid-template-columns: repeat(2, 1fr);
-      margin-top: 6rem;
+      margin-top: 5rem;
     }
   
     .portfolios {
@@ -895,7 +896,7 @@
       grid-template-columns: repeat(1, 1fr);
     }
     .about-container .right-about {
-      padding-top: 2.5rem;
+      padding-top: 2rem;
     }
   
     .main-title h2 {
@@ -919,7 +920,7 @@
   
     .header-content {
       grid-template-columns: repeat(1, 1fr);
-      padding-bottom: 6rem;
+      padding-bottom: 5rem;
     }
   
     .left-header .h-shape {
@@ -937,7 +938,7 @@
       margin: 0 auto;
     }
     .right-header .name {
-      font-size: 2.5rem !important;
+      font-size: 2.0rem !important;
       text-align: center;
       padding-top: 3rem;
     }
